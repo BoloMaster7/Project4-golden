@@ -1,0 +1,43 @@
+.navigation ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 40px;
+}
+.li{
+    color: green($color: #000000);
+}
+.navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative;
+}
+.nav-title{
+    color: yellow;
+}
+.container-splash{
+        margin: auto;
+        max-width: 70%;
+        text-align: center;
+}
+.btn{
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: "Signika', sans-serif";
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    }
+.btn-one{
+    border-color:green;
+    color:white;
+    background-color: yellow;
+}   
