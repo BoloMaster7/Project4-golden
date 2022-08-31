@@ -1,4 +1,9 @@
-
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 40px;
+}
 .navigation{
   margin: 0px 50px 75px 75px;
 }
@@ -17,6 +22,10 @@
   display: block;
 }
 
+.nav-right {
+  color: 0;
+  font-size: 80px;
+}
 #buttons li a:hover {
   text-decoration: none;
   color: #000000;
@@ -31,6 +40,7 @@
 }
 
 .nav-title {
+  color: yellow;
   color: gold;
   font-size: 30px;
   font-family: 'Lobster', cursive;
@@ -38,11 +48,11 @@
 
 .container-splash {
   margin: auto;
+  max-width: 70%;
   margin-top: 100px;
   text-align: center;
   color: white;
 }
-
 .btn {
   display: inline-block;
   min-width: 160px;
@@ -58,14 +68,15 @@
   background-position: 100% 0;
   background-size: 300%;
 }
-
 .btn-one {
   border-color: green;
   color: white;
+  background-color: yellow;
   background-color: gold;
 }
 
 .top {
+  background-color: aquamarine;
   background-image:  url("https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   min-height: 500px;
   background-size: cover;
@@ -177,4 +188,3 @@
 .foot-p{
 line-height: 90px;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFVBQUE7RUFDQSxTQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0FDQ0o7O0FEQ0E7RUFDSSxRQUFBO0VBQ0EsZUFBQTtBQ0VKOztBREFBO0VBQ0kscUJBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7QUNHSjs7QUREQTtFQUNJLGFBQUE7QUNJSjs7QURGQTtFQUNRLFlBQUE7RUFDQSxjQUFBO0VBQ0Esa0JBQUE7RUFDQSxZQUFBO0FDS1I7O0FESEE7RUFDSSxxQkFBQTtFQUNBLGdCQUFBO0VBQ0Esd0JBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQkFBQTtFQUNBLGVBQUE7RUFDQSxpQkFBQTtFQUNBLG1CQUFBO0VBQ0EsMkJBQUE7RUFDQSxxQkFBQTtBQ01KOztBREpBO0VBQ0ksbUJBQUE7RUFDQSxZQUFBO0VBQ0Esd0JBQUE7QUNPSjs7QURMQTtFQUNJLDRCQUFBO0FDUUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

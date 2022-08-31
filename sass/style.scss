@@ -4,13 +4,15 @@
     list-style-type: none;
     font-size: 40px;
 }
-.li{
+.nav-right{
     color: green($color: #000000);
+    font-size: 80px;
 }
 .navigation li {
     display: inline-block;
     margin-right: 36px;
     position: relative;
+    text-decoration: none;
 }
 .nav-title{
     color: yellow;
@@ -19,6 +21,7 @@
         margin: auto;
         max-width: 70%;
         text-align: center;
+        color: white;
 }
 .btn{
     display: inline-block;
@@ -26,7 +29,6 @@
     margin: 24px auto 0 auto;
     padding: 16px;
     border-radius: 5px;
-    font-family: "Signika', sans-serif";
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -41,3 +43,6 @@
     color:white;
     background-color: yellow;
 }   
+.top{
+    background-color: aquamarine;
+}
